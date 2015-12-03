@@ -19,7 +19,7 @@ describe('immutability', () => {
 
   });
 
-  describe('A List', () => {
+  describe('a List', () => {
 
     function addMovie(currentState, movie) {
       return currentState.push(movie);
