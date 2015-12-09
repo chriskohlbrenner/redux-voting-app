@@ -15,6 +15,7 @@ export const Voting = React.createClass({
           <Winner ref="winner" winner={this.props.winner} /> :
           <Vote {...this.props} />
         }
+        <button onClick={() => window.location.assign('/#/results')}>See results</button>
       </div>
     );
   }
